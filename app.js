@@ -1,19 +1,4 @@
-console.log("Fernandola")
-console.log(16)
-console.warn("atenção")
-console.error("um erro")
-/*
-3 formas de criar variaveis
-var
-let - > vamos usar essa
-const 
-*/
-let nome = "Fernandola"
-let idade = "16"
-let telefone = null
-console.log(nome, idade)
-nome = "Fernando C Lourenço"
-console.log(nome)
+
 
 let nomecompleto = null
 nomecompleto = prompt("informe seu nome completo")
