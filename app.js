@@ -9,6 +9,7 @@ console.log(nomecompleto
 
 //document.write("Seja bem vindo(a) " + nomecompleto)
 
+function fnTrocarDeCor(){
 let cor = prompt("Informe uma cor: \n1 azul \n 2 vermelho \n 3 preto \n 4 verde \n 5 roxo \n 6 laranja")
 
 let corDeFundo = null
@@ -36,4 +37,6 @@ else{
 }
 
 
-document.body.style.backgroundColor = cor
+document.body.style.backgroundColor = corDeFundo
+
+}
