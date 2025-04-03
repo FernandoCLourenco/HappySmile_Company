@@ -10,15 +10,28 @@
 
 <body class="conteudo">
     <header class="cabecalho">
-        <h1 class="titulo">Happy Smile Company</h1>
-        <div class="subtitulos">
-            <h3 class="subtitulo">Home-</h3>
-            <h3 class="subtitulo">Serviços-</h3>
-            <h3 class="subtitulo">Contatos</h3>
+        <h1 class="titulo" id="titulo">Happy Smile Company</h1>
+        <div class="botoas">
+            <button type="button" onclick="fnTrocarCorDeFundo()">Trocar cor de fundo</button>
+            <button type="button" onclick="fnSaudacao()">Seja bem vindo</button>
+            <button type="button" onclick="fnMostrarHoraAtual()">Mostrar hora</button>
+            <button type="button" onclick="fnTrocarTitulo()">Mostrar hora</button>
+            <img src="Imagens/50221_flag_brasil_icon.png" onclick="fnIdiomaPortugues()" alt="brasil" height="30">
+            <img src="Imagens/R.png" onclick="fnIdiomaIngles()" alt="eua" height="30">
+
         </div>
-        <Img class="foto" src="Imagens/Img3.jpg" alt="Escritório Odontologico">
+        <div class="subtitulos">
+            <a class="subtitulo" id="menu1">Home-</a>
+            <a class="subtitulo" id="menu2">Serviços-</a>
+            <a class="subtitulo" id="menu3">Contatos</a>
+        </div>
+        <Img class="foto" src="Imagens/banner-1.jpg" id="banner" alt="Escritório Odontologico">
     </header>
     <main>
+        <button type="button" onclick="fnBanner1()">1</button>
+        <button type="button" onclick="fnBanner2()">2</button>
+        <button type="button" onclick="fnBanner3()">3</button>
+
         <h3 class="servicos_h3">Serviços</h3>
         <div class="linha">
             <div class="fotoesquerda">

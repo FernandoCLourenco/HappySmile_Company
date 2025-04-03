@@ -1,10 +1,48 @@
-
+function fnSaudacao(){
 
 let nomecompleto = null
 nomecompleto = prompt("informe seu nome completo")
-console.log(nomecompleto
-)
+}
+console.log(nomecompleto)
 
+function fnMostrarHoraAtual(){
+    let dataHoraCompleta = new Date()
+    let horas = dataHoraCompleta.getHours()
+    let minutos = dataHoraCompleta.getMinutes()
+    let horaAtual = horas + ":" + minutos
+    alert("Hora Atual : " + horaAtual )
+}
+
+function fnTrocarTitulo(){
+    let titulo = prompt("Digite o titulo do site")
+   document.getElementById("titulo").innerText = titulo
+}
+
+function fnIdiomaPortugues(){
+    document.getElementById("menu1").innerText = "INICIAL"
+    document.getElementById("menu2").innerText = "SERVIÇOS"
+    document.getElementById("menu3").innerText = "CONTATO"
+
+}
+
+function fnIdiomaIngles(){
+    document.getElementById("menu1").innerText = "HOME"
+    document.getElementById("menu2").innerText = "SERVICES"
+    document.getElementById("menu3").innerText = "CONTACT"
+
+}
+function fnBanner1(){
+    document.getElementById("banner").src="imagens/banner-1.jpg"
+}
+
+function fnBanner2(){
+    document.getElementById("banner").src="imagens/banner-2.jpg"
+}
+ 
+function fnBanner3(){
+    document.getElementById("banner").src="imagens/banner-.jpg"
+}
+ 
 //alert("Seja bem vindo(a) " + nomecompleto)
 
 //document.write("Seja bem vindo(a) " + nomecompleto)
@@ -35,6 +73,7 @@ else if(cor == "6"){
 else{
     corDeFundo = "yellow"
 }
+
 
 
 document.body.style.backgroundColor = corDeFundo
